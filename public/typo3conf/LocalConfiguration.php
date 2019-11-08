@@ -9,9 +9,11 @@ return [
            'Default' => [
                'charset' => 'utf-8',
                'dbname' => 't3',
-               'driver' => 'sqlsrv',
-               'host' => '127.0.0.1',                                                                                                                                                                                  'password' => '13676778777',                                                                                                                                                                            'port' => 1433,
-               'user' => 'root',                                                                                                                                                                                    ],
+               'driver' => 'mysqli',
+               'host' => 'localhost',                                                                                                                                                                                  'password' => '13676778777',                                                                                                                                                                           
+               'port' => 3306,
+               'user' => 'root',
+            ],
         ],
     ],
     'EXTENSIONS' => [
